@@ -5,3 +5,4 @@
 
 RUOK V1.0 is a Multi Device WhatsApp bot developed by DevDan237 and Wasuke kamado. 
 ## `Scan QR Code For Session`
+https://devdan237-session.onrender.com
