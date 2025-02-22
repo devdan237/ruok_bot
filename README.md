@@ -1,5 +1,3 @@
-# RUOK_BOT
-# HELLO I'M A SIMPLE WHATSAPP BOT.
-# MY DEVELOPERS ARE DEVDAN237 AND WASUKE KAMADO
-# THIS IS MY SESSION ID 👇
-# <a href=https://devdan237-session.onrender.com' target="_blank"><img alt='GET SESSION' src='https://img.shields.io/badge/Click here to get your Session code-blue?style=for-the-badge&logo=opencv&logoColor=black'/></a> <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<h1 align="center">ꪶRUOK V1.0<br></h1>
+
+<a href="https://files.catbox.moe/y3a923.jpg"><img src="https://i.ibb.co/RjDcPYk/Zenitsu.jpg" alt="Zenitsu" border="0"></a>
