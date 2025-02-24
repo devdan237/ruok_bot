@@ -6,6 +6,6 @@
 RUOK V1.0 is a Multi Device WhatsApp bot developed by DevDan237 and Wasuke kamado. 
 ## `Scan QR Code For Session`
 <a href='https://devdan237-session.onrender.com' target="_blank">
-  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
+  <img alt='access to pairing code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
