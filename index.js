@@ -85,7 +85,7 @@ console.log('lodaing data from database...')
 console.log('data has been loaded ✅')
 
   let up = `> bot has been started  \n> emjoy\n> prefix: ${prefix}\n`;
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/fQ2zTGX.jpeg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/y3a923.jpg` }, caption: up })
 
   }
 })
@@ -134,7 +134,15 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               if (mime.split("/")[1] === "gif") {
                 return conn.sendMessage(jid, { video: await getBuffer(url), caption: caption, gifPlayback: true, ...options }, { quoted: quoted, ...options })
               }
-              let type = mime.split("/")[0] + "Message"
+   //=================================WORKTYPE=========================================== 
+if(!isOwner && config.MODE === "private") return
+if(!isOwner && isGroup && config.MODE === "inbox") return
+if(!isOwner && isGroup && config.MODE === "groups") return
+//======================================================
+
+
+
+ let type = mime.split("/")[0] + "Message"
               if (mime === "application/pdf") {
                 return conn.sendMessage(jid, { document: await getBuffer(url), mimetype: 'application/pdf', caption: caption, ...options }, { quoted: quoted, ...options })
               }
@@ -167,17 +175,6 @@ m.react("🦋")
 //==========================public react
 
    //============================
-
-   //=================================WORKTYPE=========================================== 
-if(!isOwner && config.MODE === "private") return
-if(!isOwner && isGroup && config.MODE === "inbox") return
-if(!isOwner && isGroup && config.MODE === "groups") return
-//======================================================
-
-
-
-
-
 
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
