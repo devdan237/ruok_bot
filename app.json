@@ -1,6 +1,6 @@
 {
   "name": "RUOK V1.0",
-  "description": "RUOK_BOT",
+  "description": "I AM A WHATSAPP BOT WITH MULTIPLE FEATURES DEVELOPED BY DEVDAN237.",
   "logo": "https://files.catbox.moe/y3a923.jpg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -10,14 +10,20 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": ""
     },  
-    
-    "MONGODB": {
+     "MONGODB": {
       "description": "you can use this public mongodb url if you have your personal key So you can use him.",
       "required": true,
       "value": "mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=majority"
-    }
+
+       "AlIVE IMG" :{
+         "description": "put your alive img here."
+         "required": true
+
+         "ALIVE MSG":{
+           "description": "put your alive msg here."
+           "required": true
+     }
 },
 
      "buildpacks": [
