@@ -10,6 +10,6 @@ RUOK V1.0 is a Multi Device WhatsApp bot developed by DevDan237 and Wasuke kamad
 </a>
 <br> 
 <a href='https://devdan237-session.onrender.com' target="_blank">
-  <img alt='access to pairing code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
+  <img alt='access to pairing code' src='https://img.shields.io/badge/Get%20Pairing%20Code-blue?style=for-the-badge&logo=opencv&logoColor=yellow'/>
 </a>
 <br> 
